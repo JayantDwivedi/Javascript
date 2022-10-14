@@ -6,11 +6,16 @@
 
 class Bike {
   constructor(name, brand, type) {
-    (this.name = name), (this.brand = brand);
+    (this.name = name), (this.brand = brand)
     this.type = type;
   }
 }
-
+class Car{
+  constructor(name,brand,type){
+    (this.name = name),
+      (this.brand = brand);
+    this.type = type;
+  }
 const avengar = new Bike("Avengar Street", "Bajaj", "Cruizer");
 const r15 = new Bike("R 15", "Yamaha", "Sports Bike");
 
